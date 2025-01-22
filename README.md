@@ -25,18 +25,17 @@ Follow these steps to set up and run the project:
 1. Clone the repository:
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate
+2-Create and activate a virtual environment:
+3-python -m venv venv
+4-source venv/bin/activate
 
 #Install the required packages:
-
 pip install -r requirements.txt
-
 Create a .env file in the root directory and add your API keys:
 OPENAI_API_KEY=your_openai_api_key
 LANGCHAIN_API_KEY=your_langchain_api_key
-Usage
+
+#Usage
 1-Run the Streamlit application:
 2-Open the app in your browser at http://localhost:8501.
 3-Input a topic or query, and the chatbot will provide a response.
@@ -47,7 +46,9 @@ Project Structure
 ├── .env                # Environment variables
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
-Dependencies
+
+
+#Dependencies
 LangChain
 Streamlit
 Python Dotenv
