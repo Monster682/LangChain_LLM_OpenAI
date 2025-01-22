@@ -30,7 +30,9 @@ python -m venv venv
 source venv/bin/activate
 
 #Install the required packages:
+
 pip install -r requirements.txt
+
 Create a .env file in the root directory and add your API keys:
 OPENAI_API_KEY=your_openai_api_key
 LANGCHAIN_API_KEY=your_langchain_api_key
